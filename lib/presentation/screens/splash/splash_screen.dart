@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:Tiwee/core/consts.dart';
+import 'package:polar_lights_tv/core/consts.dart';
 import 'package:lottie/lottie.dart';
-import 'package:Tiwee/presentation/screens/home/home_page.dart';
+import 'package:polar_lights_tv/presentation/screens/home/home_page.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);

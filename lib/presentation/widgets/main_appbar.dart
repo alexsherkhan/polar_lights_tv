@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:line_icons/line_icons.dart';
-import 'package:Tiwee/presentation/screens/home/home_page.dart';
+import 'package:polar_lights_tv/presentation/screens/home/home_page.dart';
 
 final forwardProvider = StateProvider<bool>((ref) {
   return true;
@@ -78,7 +78,7 @@ class _MainAppbarState extends State<MainAppbar>
               const Padding(
                 padding: EdgeInsets.all(4.0),
                 child: Text(
-                  "Tiwee",
+                  "polar_lights_tv",
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.white,

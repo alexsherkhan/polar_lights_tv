@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:Tiwee/presentation/screens/splash/splash_screen.dart';
+import 'package:polar_lights_tv/presentation/screens/splash/splash_screen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +17,7 @@ void main() {
           themeMode: ThemeMode.system,
 
 
-          title: "Tiwee",
+          title: "polar_lights_tv",
           debugShowCheckedModeBanner: false,
           theme: ThemeData(textTheme: GoogleFonts.soraTextTheme(),
           scaffoldBackgroundColor: Color(0xff1a1726),),

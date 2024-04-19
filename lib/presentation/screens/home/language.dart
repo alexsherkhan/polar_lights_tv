@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:Tiwee/business_logic/provider/languageProvider.dart';
-import 'package:Tiwee/core/consts.dart';
-import 'package:Tiwee/presentation/screens/home/language_list.dart';
+import 'package:polar_lights_tv/business_logic/provider/languageProvider.dart';
+import 'package:polar_lights_tv/core/consts.dart';
+import 'package:polar_lights_tv/presentation/screens/home/language_list.dart';
 import 'package:lottie/lottie.dart';
 
 class Language extends ConsumerWidget {

@@ -1,6 +1,6 @@
 import 'package:better_player/better_player.dart';
 import 'package:flutter/material.dart';
-import 'package:Tiwee/core/consts.dart';
+import 'package:polar_lights_tv/core/consts.dart';
 import 'package:lottie/lottie.dart';
 
 class Player extends StatelessWidget {
