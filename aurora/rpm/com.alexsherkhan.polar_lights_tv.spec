@@ -1,8 +1,8 @@
 %global __provides_exclude_from ^%{_datadir}/%{name}/lib/.*$
-%global __requires_exclude ^lib(dconf|flutter-embedder|maliit-glib|.+_platform_plugin)\\.so.*$
+%global __requires_exclude ^lib(dconf|flutter-embedder|maliit-glib|gstreamer-1.0|.+_platform_plugin)\\.so.*$
 
 Name: com.alexsherkhan.polar_lights_tv
-Summary: A new Flutter project.
+Summary: IPTV-плеер, разработанный для устройств Аврора ОС с помощью Flutter
 Version: 0.1.0
 Release: 1
 License: Proprietary
@@ -11,6 +11,8 @@ Source0: %{name}-%{version}.tar.zst
 BuildRequires: cmake
 BuildRequires: ninja
 BuildRequires: pkgconfig(flutter-embedder)
+BuildRequires: pkgconfig(gstreamer-1.0)
+BuildRequires: pkgconfig(runtime-manager-qt5)
 
 %description
 %{summary}.

@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=Application
-Name=polar_lights_tv
-Comment=A new Flutter project.
+Name=Polar Lights TV
+Comment=IPTV-плеер, разработанный для устройств Аврора ОС с помощью Flutter
 Icon=com.alexsherkhan.polar_lights_tv
 Exec=/usr/bin/com.alexsherkhan.polar_lights_tv
 X-Nemo-Application-Type=silica-qt5
 
 [X-Application]
-Permissions=
+Permissions=UserDirs;Internet;Videos
 OrganizationName=com.alexsherkhan
 ApplicationName=polar_lights_tv

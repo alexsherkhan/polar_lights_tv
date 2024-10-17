@@ -1,9 +1,11 @@
-#include <flutter/application.h>
+#include <flutter/flutter_aurora.h>
+#include <flutter/flutter_compatibility_qt.h>  // <- Add for Qt
 #include "generated_plugin_registrant.h"
 
-int main(int argc, char *argv[]) {
-    Application::Initialize(argc, argv);
-    RegisterPlugins();
-    Application::Launch();
+int main(int argc, char* argv[]) {
+    aurora::Initialize(argc, argv);
+    aurora::EnableQtCompatibility();  // <- Enable Qt
+    aurora::RegisterPlugins();
+    aurora::Launch();
     return 0;
 }
